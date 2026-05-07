@@ -7,7 +7,8 @@ For my final project I decided to create a small portfolio website that I can ed
 For inspiration I used your Portfolio website as a baseline and opened the source code to each of the pages provided. And proceeded to see how things were layed out in order to more properly understand how I am going to approach building this website, and then after I proceeded to use Claude Ai to guide me through the process.
 
 I first asked claude in a very straightforward way, How do I create a website in HTML to where it responded with a fat block of code that was copyable, as shown in screenshots 1-2.
-(Documentation For Final/Screenshot 1.png)
+![Local](Documentation For Final/Screenshot 1.png)
+![Local](Documentation For Final/Screenshot 2.png)
 
 I then asked claude to separate that ask into different steps, as seen in screenshots 3-8.
 

@@ -1,0 +1,110 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Monospace, sans-serif;
+  background-color: #800000;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: #800000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Section */
+section {
+  background: #A33333;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin-left: -200px;
+  margin-right: auto;
+}
+section ul {
+  padding-left: 25px;
+}
+
+section li {
+  padding-left: 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+/* Font Sizes */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* Layout wrapper */
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.sections {
+  flex: 1;
+}
+
+/* Cover photo */
+.cover-photo img {
+  width: 400px;
+  border-radius: 0;
+  object-fit: cover;
+  top: 20px;
+}
+

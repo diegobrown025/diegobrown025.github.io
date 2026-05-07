@@ -1,0 +1,80 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Monospace, sans-serif;
+  background-color:#800000;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: #800000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+/* Main Content */
+main {
+	
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+/* Section */
+section {
+  background: #A33333;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  max-width: 1600px;
+  margin-left: -200px;
+  margin-right: auto;
+}
+
+/* Align bullet points inside section */
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+  
+/* Float image to right */
+.about-img {
+	float: right;
+	width: 250px;
+	margin: 0 0 15px 20px;
+	border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
